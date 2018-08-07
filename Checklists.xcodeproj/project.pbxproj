@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FAD09542118024E00969AF4 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAD09532118024E00969AF4 /* AddItemViewController.swift */; };
 		7B29529E1D2A44A3000B9D60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B29529D1D2A44A3000B9D60 /* AppDelegate.swift */; };
 		7B2952A01D2A44A3000B9D60 /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B29529F1D2A44A3000B9D60 /* ChecklistViewController.swift */; };
 		7B2952A31D2A44A3000B9D60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B2952A11D2A44A3000B9D60 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FAD09532118024E00969AF4 /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
 		7B29529A1D2A44A3000B9D60 /* Checklists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Checklists.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B29529D1D2A44A3000B9D60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B29529F1D2A44A3000B9D60 /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				7B2952A61D2A44A3000B9D60 /* LaunchScreen.storyboard */,
 				7B2952A91D2A44A3000B9D60 /* Info.plist */,
 				7B2952AF1D2BA9AA000B9D60 /* ChecklistItem.swift */,
+				0FAD09532118024E00969AF4 /* AddItemViewController.swift */,
 			);
 			path = Checklists;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B2952A01D2A44A3000B9D60 /* ChecklistViewController.swift in Sources */,
+				0FAD09542118024E00969AF4 /* AddItemViewController.swift in Sources */,
 				7B2952B01D2BA9AA000B9D60 /* ChecklistItem.swift in Sources */,
 				7B29529E1D2A44A3000B9D60 /* AppDelegate.swift in Sources */,
 			);
