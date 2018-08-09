@@ -10,7 +10,7 @@ import Foundation
 
 import UIKit
 
-protocol AddItemViewChontrollerDelegate: class {
+protocol AddItemViewControllerDelegate: class {
   func addItemViewControllerDidCancel(_ controller: AddItemViewController)
   func addItemViewController(_ controller: AddItemViewController,
                              didFinishAdding item: ChecklistItem)
@@ -34,7 +34,7 @@ class AddItemViewController: UITableViewController, UITextFieldDelegate{
     delegate?.addItemViewController(self, didFinishAdding: item)
   }
   
-    weak var delegate: AddItemViewChontrollerDelegate?
+    weak var delegate: AddItemViewControllerDelegate?
   
     override func tableView(_ tableView: UITableView,
                           willSelectRowAt indexPath: IndexPath) -> IndexPath? {
@@ -49,7 +49,7 @@ class AddItemViewController: UITableViewController, UITextFieldDelegate{
         shouldChangeCharactersIn range: NSRange,
         replacementString string: String) -> Bool {
         let oldText = textFeild.text! as NSString
-        let newText = oldText.replacingCharacters(in:range, with: string)
+        let newText = oldText.replacingCharacters(in: range, with: string)
                                                 as NSString
         if newText.length > 0{
             doneBarButton.isEnabled = true
